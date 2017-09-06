@@ -1,12 +1,20 @@
 html { 
-	color: orangered;
+	color: black;
 	font-family: sans-serif;
 	background-color: khaki;
 	line-height: 1.6;
+	margin-left: 70px;
+	margin-right: 70px;
  }
 
 h1 { 
 	color: green; 
+	margin-bottom: 0px;
+}
+
+#subtitle {
+	font-size: 30px;
+	margin-top: 0px;
 }
 
 strong { 
@@ -20,4 +28,8 @@ em {
 #tone {
 	opacity: 1;
 	color: green;
+}
+
+.script {
+	font-family: monospace;
 }

@@ -1,0 +1,23 @@
+html { 
+	color: orangered;
+	font-family: sans-serif;
+	background-color: khaki;
+	line-height: 1.6;
+ }
+
+h1 { 
+	color: green; 
+}
+
+strong { 
+	color: black;
+}
+
+em {
+	opacity: 0.6 ;
+}
+
+#tone {
+	opacity: 1;
+	color: green;
+}

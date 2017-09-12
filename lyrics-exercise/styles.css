@@ -1,0 +1,72 @@
+
+body {
+	background-image: url(biking-frank.png);
+}
+background-color {
+	color: rgb(165,179,72);
+}
+
+p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 35px;
+	color: rgb(165,179,72);
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-top: 0px; 
+}
+
+#paren {
+	opacity: 0.5;
+}
+
+#verse1 {
+	text-align: left;
+	margin-left: 200px;
+}
+
+#verse2 {
+	text-align: right;
+	margin-right: 200px;
+}
+
+#verse3 {
+	text-align: left;
+	margin-left: 200px;
+}
+
+#chorus {
+	text-align: center;
+}
+
+#outro {
+	text-align: right; 
+	margin-right: 200px;
+}
+
+#cover1 {
+	float: left;
+	display: inline;
+	width: 100px;
+}
+
+#cover2 {
+	float: right;
+	display: inline;
+	width: 100px;
+}
+
+body {
+
+}

@@ -1,0 +1,116 @@
+
+body {
+	background-image: url(biking-frank.png);
+}
+
+
+p {
+    font-family: 'Saira', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+	font-family: 'Rammetto One', cursive;
+	font-size: 35px;
+	color: black;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Rammetto One', cursive;
+	font-size: 20px;
+	color: white;
+	margin-top: 0px; 
+}
+
+#paren {
+	opacity: 0.5;
+}
+
+#verse1 {
+	text-align: left;
+	margin-left: 300px;
+	background-color: rgba(255, 255, 255, 0.73);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#verse2 {
+	text-align: right;
+	margin-right: 300px;
+	background-color: rgba(255, 255, 255, 0.73);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#verse3 {
+	text-align: left;
+	margin-left: 300px;
+	background-color: rgba(255, 255, 255, 0.73);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.chorus {
+	text-align: center;
+	font-size: 18px;
+	opacity: 0.7;
+	font-size: 16px;
+	color: white;
+}
+
+#outro {
+	text-align: right; 
+	margin-right: 300px;
+	background-color: rgba(255, 255, 255, 0.73);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+
+}
+
+#cover1 {
+	float: left;
+	display: inline;
+	width: 100px;
+}
+
+#cover2 {
+	float: right;
+	display: inline;
+	width: 100px;
+}
+
+#main {
+	background-color: rgba(165,179,72, 0.73);
+	margin-right: 300px;
+	margin-left: 300px;
+	opacity: 30%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#main2 {
+	background-color: rgba(165,179,72, 0.73);
+	margin-right: 300px;
+	margin-left: 300px;
+	opacity: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+body {
+	background-image: url(biking-frank.png);
+}
+
+
+
+
+
+
+

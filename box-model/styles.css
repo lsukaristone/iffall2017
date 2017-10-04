@@ -1,0 +1,169 @@
+
+
+
+
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+	text-transform: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 78px;
+	letter-spacing: 0.7px;
+	color: white;
+}
+
+h3 {
+	font-size: 30px;
+	margin-top: 3px;
+	padding: 0px;
+	color: grey;
+}
+
+h2 {
+	font-size: 40px;
+	margin: 0px;
+	padding: 0px;
+	text-transform: bold;
+	text-align: center;
+}
+
+#intro {
+	padding-top: 157px;
+	text-align: center;
+	background-image: url('https://i.pinimg.com/600x315/58/39/25/5839259204633bf96d928dc0f718259d.jpg');
+	width: 100%;
+	padding-bottom: 175px;
+	max-height: 482px;
+	overflow: hidden;
+}
+
+#sect2 {
+	margin-top: 0px;
+	padding-top: 41px;
+	height: 600px;
+	background-color: white;
+}
+
+#text1 {
+	width: 960px;
+	font-size: 18.5px;
+	display: block;
+	margin: auto;
+} 
+
+.img1 { 
+	float: right;
+	padding-left: 43px;
+	margin-top: 35px;
+ } 
+
+section #sect3 {
+	margin-top: 0px;
+	padding-top: 41px;
+	padding-bottom: 0px;
+	text-align: center;
+	height: 640px;
+	background-color: grey;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	background-color: grey;
+}
+
+#sect3 h2 {
+	margin-top: 0px;
+	padding-top: 45px;
+}
+
+#sect3 h4{
+	font-size: 20px;
+	padding-top: 8px;
+	text-align: left;
+}
+
+#sect3 p{
+	margin: 0;
+	padding: 10px 0 43px 0;
+	letter-spacing: 0.08px;
+	font-size: 18px;
+	line-height: 1.2em;
+}
+
+.threeall {
+	width: 960px;
+	height: 640px;;
+	margin: auto;
+	padding-top: 24px;
+}
+
+.left {
+	height: 640px;
+	width: 440px;
+	float: left;
+}
+
+.right {
+	height: 640px;
+	width: 440px;
+	float: right;
+	padding-right: 40px;
+}
+
+.threeall img {
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin-right: 13px;
+}
+
+#sect4 { 
+	height: 415px;
+	background-color: white;
+	width: 100%;
+ }
+
+ #titlefour 
+ {
+ 	text-align: center;
+ }
+
+ #sect4 h2 {
+ 	padding-top: 20px;
+ }
+
+ #sect4 p {
+ 	margin: auto;
+    width: 700px;
+    display: block;
+    font-size: 27px;
+    line-height: 1.15;
+    text-align: center;
+    padding-top: 20px;
+ }
+
+ #sect5 {
+ 	height: 100px;
+ 	background-color: grey;
+ }
+.footer {
+	display: block;
+	color:white;
+	font-size: 14px;
+	padding-left: 40px;
+	padding-top: 30px;
+
+}
+ .fa {
+ 	font-size: 32px;
+ 	color: white;
+ }
+
+ .icon {
+ 	float: right;
+ 	padding-right: 30px;
+
+ }
+

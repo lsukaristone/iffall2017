@@ -49,10 +49,25 @@ h2 {
 
 #text1 {
 	width: 960px;
-	font-size: 18.5px;
 	display: block;
 	margin: auto;
 } 
+
+#text1 p {
+	font-size: 18px;
+	line-height: 21.15px;
+    letter-spacing: 0.01px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+#p1 { 
+padding-top: 33px; 
+padding-bottom: 0px;
+margin-bottom: 0px;
+padd
+}
 
 .img1 { 
 	float: right;
@@ -70,7 +85,7 @@ section #sect3 {
 	box-sizing: border-box;
 	width: 100%;
 	overflow: hidden;
-	background-color: grey;
+	opacity: .4;
 }
 
 #sect3 h2 {
@@ -80,13 +95,17 @@ section #sect3 {
 
 #sect3 h4{
 	font-size: 20px;
-	padding-top: 8px;
 	text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+
 }
 
 #sect3 p{
-	margin: 0;
-	padding: 10px 0 43px 0;
+	margin-top: 6px;
+	padding-right: 10px;
+	/*padding: 10px 0 43px 0;*/
 	letter-spacing: 0.08px;
 	font-size: 18px;
 	line-height: 1.2em;
@@ -94,22 +113,29 @@ section #sect3 {
 
 .threeall {
 	width: 960px;
-	height: 640px;;
+	/*height: 640px;;*/
 	margin: auto;
 	padding-top: 24px;
 }
 
 .left {
-	height: 640px;
+/*	height: 640px;*/
 	width: 440px;
 	float: left;
 }
 
 .right {
-	height: 640px;
+/*	height: 640px;*/
 	width: 440px;
 	float: right;
 	padding-right: 40px;
+}
+
+.photoleft, .photoright {
+	padding-top: 2px;
+	clear: both;
+	height: 150px;
+    margin-bottom: 24px;
 }
 
 .threeall img {
@@ -121,7 +147,7 @@ section #sect3 {
 
 #sect4 { 
 	height: 415px;
-	background-color: white;
+	background-color: black;
 	width: 100%;
  }
 
@@ -131,7 +157,9 @@ section #sect3 {
  }
 
  #sect4 h2 {
- 	padding-top: 20px;
+    padding-top: 44px;
+    padding-bottom: 15px;
+    color: white;
  }
 
  #sect4 p {
@@ -142,28 +170,30 @@ section #sect3 {
     line-height: 1.15;
     text-align: center;
     padding-top: 20px;
+    color: white;
  }
 
  #sect5 {
  	height: 100px;
- 	background-color: grey;
+ 	background-color: white;
  }
 .footer {
-	display: block;
-	color:white;
-	font-size: 14px;
-	padding-left: 40px;
-	padding-top: 30px;
-
+    display: block;
+    color: grey; 
+    font-size: 18px;
+    padding-left: 162px;
+    padding-top: 42px;
 }
  .fa {
  	font-size: 32px;
- 	color: white;
+ 	color: grey;
  }
 
  .icon {
- 	float: right;
- 	padding-right: 30px;
-
+    float: right;
+    padding-right: 160px;
+    position: relative;
+    bottom: 28px;
+    color: grey;
  }
 

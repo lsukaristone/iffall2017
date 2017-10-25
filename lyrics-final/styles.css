@@ -1,0 +1,202 @@
+html {
+  margin-top: 0px;
+}
+
+
+body{ 
+font-family: Saira;
+margin-top: 0px; 
+background-color: #829245;
+margin-right: 0;
+margin-left: 0;
+}
+
+div#header { 
+	height: 260px;
+  width: 100%;
+	background-image: url(gifbiking.gif);
+	background-repeat: repeat-x;
+	padding-top: 0px;
+	margin-top: 0px;
+  position: relative;
+  z-index: 1;
+
+ }
+
+ h1 { 
+   font-size: 90px;
+   font-weight: 600;
+   color: #fff;
+   margin-top: 0px;
+   margin-bottom: 0;
+   height: 120px; 
+  }
+
+  h3 { 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+   }
+
+  
+
+   h4 { 
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #fff;
+      font-weight: normal;
+
+    }
+
+ div#cover { 
+ 	  height: 200px;
+    width: 200px;
+    background-color: #fff;
+   /*	border: 3px solid #fff;*/
+    background-image: url(bikingfinal.png);
+    background-size: cover;
+    color: green;
+    text-indent: -10000px;
+    transition: all .0s;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    z-index: 2;
+
+  }
+
+  div#cover:hover {
+    text-indent: 0;
+    background-image: none;
+}
+
+  div#cover p { 
+  	font-size: 12px;
+  	padding-top: 20px;
+  	padding-right:10px;
+    padding-left: 10px;
+  	text-align: center; 
+    color: green;
+  } 
+
+  div#text { 
+    margin-top: 0px;
+    margin-left: 340px;
+  }
+  #paren {
+  opacity: 0.5;
+}
+p {
+  font-size: 12px;
+  color: #fff;
+}
+#verse1 {
+  margin-top: 70px;
+  text-align: left;
+  margin-left: 300px;
+ /* background-color: rgba(255, 255, 255, 0.73);*/
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+#verse1:hover  {
+   transition:0.5s;
+  background-color: rgba(230,180,43, 0.6);
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+#verse2 {
+  text-align: right;
+  margin-right: 300px;
+  /*background-color: rgba(255, 255, 255, 0.73);*/
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+#verse2:hover  {
+  background-color: rgba(230,180,43, 0.6);
+  font-size: 15px;
+  transition: 0.5s;
+  margin-top: 0px;
+}
+
+#verse3 {
+  text-align: left;
+  margin-left: 300px;
+ /* background-color: rgba(255, 255, 255, 0.73);*/
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 14px;
+
+}
+
+#verse3:hover  {
+  background-color: rgba(230,180,43, 0.6);
+  font-size: 15px;
+   transition: 0.5s;
+}
+
+.chorus {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(230,180,43);
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+.chorus:hover {
+  background-color: #fff;
+  font-size: 16px;
+   transition: 0.5s;
+}
+
+#outro {
+  text-align: right; 
+  margin-right: 300px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+
+}
+
+#outro:hover  {
+  background-color: rgba(230,180,43, 0.6);
+  font-size: 15px;
+   transition: 0.5s;
+}
+
+#main {
+  /*background-color: rgba(165,179,72, 0.73);*/
+  margin-right: 300px;
+  margin-left: 300px;
+/*  opacity: 30%;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#main2 {
+  /*background-color: rgba(165,179,72, 0.73);*/
+  margin-right: 300px;
+  margin-left: 300px;
+ /* opacity: 50%;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+

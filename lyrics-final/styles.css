@@ -106,10 +106,11 @@ p {
   padding-left: 20px;
   margin-bottom: 0px;
   font-size: 14px;
+  border-left: 6px solid rgb(230,180,43);
 }
 
 #verse1:hover  {
-   transition:0.5s;
+  transition:0.5s;
   background-color: rgba(230,180,43, 0.6);
   font-size: 15px;
   margin-bottom: 0px;
@@ -124,6 +125,7 @@ p {
   padding-right: 20px;
   margin-top: 0px;
   font-size: 14px;
+  border-right: 6px solid rgb(230,180,43);
 }
 
 #verse2:hover  {
@@ -141,6 +143,7 @@ p {
   padding-top: 20px;
   padding-left: 20px;
   font-size: 14px;
+  border-left: 6px solid rgb(230,180,43);
 
 }
 
@@ -156,7 +159,6 @@ p {
   color: rgb(230,180,43);
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 
@@ -173,6 +175,7 @@ p {
   padding-top: 20px;
   padding-right: 20px;
   font-size: 14px;
+  border-right: 6px solid rgb(230,180,43);
 
 }
 
@@ -198,5 +201,12 @@ p {
  /* opacity: 50%;*/
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#container {
+  border-left: 6px solid red;
+  border-width: 3px;
+  border-right-style: solid;
+  
 }
 

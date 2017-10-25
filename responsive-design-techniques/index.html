@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Basic Responsive Design Techniques</title>
+	<link href="http://www.wudesign.me/resources/responsive-design-techniques/styles.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<header>
+		<h1>Responsive Design Techniques</h1>
+		<p>For each section in this document, complete the challenge as described.</p>
+	</header>
+
+	<section id="body-width-management">
+		<p>Make the <code>&lt;body&gt;</code> of this document be <code>800px</code> wide <em>and</em> <code>90%</code> the width of the viewport, whichever is smaller. Center the body on the page no matter how wide the viewport is.</p>
+	</section>
+
+	<section id="background-color">
+		<p>Make the <code>background-color</code> of this document to <code>#eaf6ff</code> when the viewport width is <code>640px</code> or more.</p>
+	</section>
+
+	<section id="headline-size">
+		<p>Make the <code>&lt;h1&gt;</code> on this page have a <code>font-size</code> of <code>1.5rem</code> when the viewport width is below <code>500px</code>, and <code>2.5rem</code> when the viewport width is above <code>640px</code>.</p>
+	</section>
+	
+	<section id="fixed-size-grid-items">
+		<p>Turn the following list into a grid of boxes that wrap horizontally (side-by-side until they run out of room and wrap to the next line). Make each <code>&lt;aside&gt;</code> <code>170px</code> wide, with a <code>10px</code> margin. Set the <code>font-size</code> for the boxes to be <code>0.8rem</code>. Be sure to remove the bullets associated with the <code>&lt;li&gt;</code> tags, and remove the default <code>padding-left</code> on the <code>&lt;ul&gt;</code>.</p>
+		<ul>
+			<li>
+				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
+			</li>
+			<li>
+				<aside>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
+			</li>
+			<li>
+				<aside>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.</aside>
+			</li>
+			<li>
+				<aside>Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident.</aside>
+			</li>
+		</ul>
+	</section>
+
+	<section id="stretchable-grid-items">
+		<p>As above, make a grid of boxes that wrap horizontally. This time, give each <code>&lt;li&gt;</code> a width of 100%. When the viewport width is greater than 480px, make each <code>&lt;li&gt;</code> be <code>50%</code> wide. If the viewport is greater than 640px, make each <code>&lt;li&gt;</code> be <code>25%</code> wide. The grid should be 1-across at small widths, 2-across at medium widths, and 4-across and large widths. Don't set a width on the <code>&lt;aside&gt;</code> elements, but be sure they have a <code>10%</code> margin.</p>
+		<p>Now, set the <code>&lt;ul&gt;</code> to have a <code>margin</code> of <code>-10px</code> left and right, <code>1rem</code> top and bottom. What happens?</p>
+		<ul>
+			<li>
+				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
+			</li><!--
+			--><li>
+				<aside>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
+			</li><!--
+			--><li>
+				<aside>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.</aside>
+			</li><!--
+			--><li>
+				<aside>Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident.</aside>
+			</li>
+		</ul>
+	</section>
+
+</body>
+</html>

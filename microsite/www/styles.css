@@ -1,0 +1,175 @@
+#introsection{
+/*	background-image: url(veglambfin.png);
+	width: 1370px;
+	opacity: 0.1;
+	position: absolute;
+	left: 700px;
+	margin-top: -200px;
+    padding-top: 0px;*/
+    width: 100%;
+	height: 615px;
+	background-color: #e5dcdd;
+ }
+
+ /*#bg-img { 
+ 	width: 1370px;
+	opacity: 0.1;
+	position: absolute;
+	left: 700px;
+	margin-top: -200px;
+    padding-top: 0px;
+  }*/
+
+
+ html, body { 
+ 	padding: 0;
+ 	margin: 0; 
+  margin-right: 0;
+  padding-right: 0;
+
+ }
+
+  h1 { 
+  	width: 100%;
+    font-family: Bungee;
+    font-size: 65px;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #727272;
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-right:12%;
+   }
+
+   #intro { 
+    width: 90%;
+    height: 180px;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    color: black;
+    left: 30%;
+    padding-left: 30%;
+    padding-top: 3%;
+    padding-right: 15%;
+	}
+
+   	#first { 
+    border-style: none;
+    height: 100%;
+    left: -5%;
+    top: -5%;
+    position: absolute;
+	   }
+
+
+    /*.dropdown, .dropup {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      }*/
+    
+#about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+}
+    /*plant img*/
+#plant { 
+      height: 100%;
+      transform: rotate(-72deg);
+      opacity: 0.39;
+      margin-left: -300px;
+      position: absolute;
+      box-sizing: border-box;
+      float: left;
+    }
+
+    h2 { 
+      font-family: Bungee;
+      font-size: 35px;
+      text-align: left;
+      color: #727272;
+     }
+
+     #aboutp { 
+        font-family: Open Sans; 
+        font-size: 18px;
+       }
+
+      .leftheadp { 
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+       }
+    #char {
+      clear: both;
+    }
+
+    #charp { 
+        font-family: Open Sans; 
+        font-size: 15px;
+        padding-bottom: 5%;
+        width: 70%;
+        right: 10%;
+     }
+
+     #skel {
+      float: right;
+      position: absolute;
+      height: 70%;
+      left: 60%;
+     }
+
+     .leftalign { 
+      padding-left: 15%;
+      padding-right: 15%;
+      }
+
+      #circle { 
+
+          width: 400px;
+          position: absolute;
+       }
+
+      .rightalign {
+        padding-top: 5%;
+        padding-left: 40%;
+        padding-right: 14%;
+      }
+
+      #originsp {  
+        font-family: Open Sans; 
+        font-size: 15px;
+        padding-bottom: 5%;
+      }
+
+      #origins { 
+        padding-top: 10%;
+        padding-bottom: 5%;
+       }
+
+      #legendp {
+        font-family: Open Sans; 
+        font-size: 15px;
+        padding-bottom: 5%;
+        width: 70%;
+        right: 10%;
+       }
+
+       #final { 
+          float: right;
+          position: absolute;
+          height: 70%;
+          left: 60%;
+        }
+
+
+
+
+
+
+

@@ -1,0 +1,301 @@
+*, *:after, *:before {
+   box-sizing: border-box;
+}
+
+#introsection {
+  width: 100%;
+  height: 650px;
+  background-color: #e5dcdd;
+  background-image: url(veglambfin.png);
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: -15% 30%;
+  overflow:hidden;
+ }
+
+ html, body { 
+  padding: 0;
+  margin: 0; 
+  margin-right: 0;
+  padding-right: 0;
+  max-width: 100%;
+ }
+
+  h1 { 
+    width: 100%;
+    font-family: Bungee;
+    font-size: 65px;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #727272;
+    padding-left: 35%;
+    padding-top: 10%;
+    padding-right:12%;
+    opacity: 100%;
+    position: relative;
+    z-index: 2;
+   }
+
+  h1 span {
+  position: relative;
+  z-index: 2;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+  right: 20%;
+  background-color: white;
+  height: 20px;
+  z-index: 1;
+}
+
+   #intro { 
+    width: 90%;
+    height: 180px;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    color: black;
+    left: 35%;
+    padding-left: 35%;
+    padding-top: 3%;
+    padding-right: 10%;
+  }
+
+   #intro > a {
+      border-bottom: 10px solid #ED6B24;
+      line-height:0.5em;
+      display: inline-block;
+      z-index: 1;
+      color: #000;
+      text-decoration: none;
+   }
+
+    #intro > a:hover {
+      border-bottom: 15px solid #fff;
+   }
+    #first { 
+      border-style: none;
+      height: 700px;
+      left: -5%;
+      top: -5%;
+      position: absolute;
+     }a
+    
+     #nav ul{ 
+      list-style-type: none;
+      z-index: 0;
+      position: absolute;
+    }
+
+    #nav li{ 
+      margin-top: 5%;
+      z-index: 0;
+      
+    }
+
+     #nav ul a { 
+      color: #C3A723;
+      text-decoration: none;
+      z-index: 0;
+    }
+
+    #nav { 
+      top: 5%;
+      left: 12%;
+      position: absolute;
+      font-family: Bungee;
+      color: #C3A723;
+      z-index: 0;
+      
+     }
+
+
+
+    #about {
+      padding-top: 10%;
+      padding-bottom: 8%;
+      padding-right: 20%;
+      width: 100%;
+      padding-left: 15%;
+
+      /*background-image: url(plant1.png);
+      background-size: 500px;
+      background-repeat: no-repeat;
+      background-position: -15% 30%;*/
+
+    }
+
+    #aboutp { 
+        font-family: Open Sans; 
+        font-size: 20px;
+       }
+  
+    #plant { 
+      height: 80%;
+      transform: rotate(-72deg);
+      opacity: 0.39;
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      left: -15%;
+
+    }
+
+    h2 { 
+      font-family: Bungee;
+      font-size: 35px;
+      text-align: left;
+      color: #727272;
+      border-bottom: 10px solid #C2A623;
+      line-height:0.5em;
+      display: inline-block;
+      z-index: 1;
+     }
+
+     .rightalign > h2 {
+      font-family: Bungee;
+      font-size: 35px;
+      text-align: left;
+      color: #727272;
+      border-bottom: 10px solid #ED6B24;
+      line-height:0.5em;
+      display: inline-block;
+      z-index: 1;
+     }
+    /* h2 span { 
+        position: relative;
+        z-index: 1;
+      }
+
+      h2::after {
+        content: "";
+        position: absolute;
+        bottom: 10px;
+        left: 30%;
+        right: 20%;
+        background-color: yellow;
+        height: 20px;
+        /*z-index: 0;*/
+      }
+
+
+
+    .leftheadp { 
+        margin-left: 25%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+       }
+   
+    #char {
+      clear: both;
+      padding-top: 5%;
+      width: 100%;
+    }
+
+    #charp { 
+        font-family: Open Sans; 
+        font-size: 15px;
+        padding-bottom: 5%;
+        width: 70%;
+        right: 10%;
+     }
+
+     #skel {
+      display: inline-block;
+      position: absolute;
+      height: 70%;
+      left: 60%;
+
+     }
+     #legend { 
+      width: 100%;
+      }
+     .leftalign { 
+      padding-left: 15%;
+      padding-right: 15%;
+      }
+
+      #circle { 
+        width: 400px;
+        position: absolute;
+       }
+
+      .rightalign {
+        padding-top: 5%;
+        padding-left: 40%;
+        padding-right: 14%;
+      }
+
+      #originsp {  
+        font-family: Open Sans; 
+        font-size: 15px;
+        padding-bottom: 5%;
+      }
+
+      #origins { 
+        padding-top: 10%;
+        padding-bottom: 5%;
+        width: 100%;
+       }
+
+      #legendp {
+        font-family: Open Sans; 
+        font-size: 15px;
+        padding-bottom: 5%;
+        width: 70%;
+        right: 10%;
+       }
+
+       #final { 
+          display: inline-block;
+          position: absolute;
+          height: 70%;
+          left: 60%;
+        }
+
+      #return img {
+        display: block;
+        margin: auto;
+        padding-bottom: 10%;
+        width: 75px;
+      }
+
+    a#return:hover {
+        opacity: 20%;
+      }
+
+  @media screen and (max-width: 425px) and (min-width: 200px) {
+       
+      #introsection {
+          width: 100%;
+          height: 650px;
+          background-color: #e5dcdd;
+          background-image: url(veglambfin.png);
+          background-size: 200px;
+          background-repeat: no-repeat;
+          background-position: -15% 20%;
+        }
+
+
+        h1 {
+
+        font-size: 40px;
+        }
+
+        #intro {
+          font-size: 15px;
+          text-align: left;
+          padding-left: 10%;
+          padding-top: 30%;
+          padding-right: 10%;
+        }
+
+
+       }

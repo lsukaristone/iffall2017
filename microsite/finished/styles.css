@@ -9,7 +9,7 @@
   background-image: url(veglambfin.png);
   background-size: 600px;
   background-repeat: no-repeat;
-  background-position: -15% 30%;
+  background-position: -10% 30%;
   overflow:hidden;
  }
 
@@ -62,7 +62,6 @@ h1::after {
     letter-spacing: 0.2px;
     text-align: justify;
     color: black;
-    left: 35%;
     padding-left: 35%;
     padding-top: 3%;
     padding-right: 10%;
@@ -86,36 +85,7 @@ h1::after {
       left: -5%;
       top: -5%;
       position: absolute;
-     }a
-    
-     #nav ul{ 
-      list-style-type: none;
-      z-index: 0;
-      position: absolute;
-    }
-
-    #nav li{ 
-      margin-top: 5%;
-      z-index: 0;
-      
-    }
-
-     #nav ul a { 
-      color: #C3A723;
-      text-decoration: none;
-      z-index: 0;
-    }
-
-    #nav { 
-      top: 5%;
-      left: 12%;
-      position: absolute;
-      font-family: Bungee;
-      color: #C3A723;
-      z-index: 0;
-      
      }
-
 
 
     #about {
@@ -124,6 +94,8 @@ h1::after {
       padding-right: 20%;
       width: 100%;
       padding-left: 15%;
+      position: relative;
+      overflow:hidden;
 
       /*background-image: url(plant1.png);
       background-size: 500px;
@@ -194,9 +166,12 @@ h1::after {
        }
    
     #char {
-      clear: both;
+      position: relative;
       padding-top: 5%;
       width: 100%;
+      overflow: hidden;
+      z-index: 0;
+
     }
 
     #charp { 
@@ -210,12 +185,14 @@ h1::after {
      #skel {
       display: inline-block;
       position: absolute;
-      height: 70%;
+      height: 90%;
       left: 60%;
 
      }
      #legend { 
       width: 100%;
+      position: relative;
+      overflow: hidden;
       }
      .leftalign { 
       padding-left: 15%;
@@ -243,6 +220,9 @@ h1::after {
         padding-top: 10%;
         padding-bottom: 5%;
         width: 100%;
+        position: relative;
+        overflow: hidden;
+        z-index: 0;
        }
 
       #legendp {
@@ -278,15 +258,14 @@ h1::after {
           height: 650px;
           background-color: #e5dcdd;
           background-image: url(veglambfin.png);
-          background-size: 200px;
+          background-size: 170px;
           background-repeat: no-repeat;
-          background-position: -15% 20%;
+          background-position: -10% 20%;
         }
 
 
         h1 {
-
-        font-size: 40px;
+        font-size: 30px;
         }
 
         #intro {
@@ -297,5 +276,261 @@ h1::after {
           padding-right: 10%;
         }
 
+        p {
+          font-size: 12px;
+        }
+        
+        
+        #aboutp {
+          font-family: Open Sans;
+          font-size: 12px;
+          width: 100%;
+          margin: 0;
+          text-align: justify;
+        }
 
-       }
+     #originhead {
+        font-size: 20px;
+              }
+
+      .heading {
+          font-size: 20px;
+        }
+        
+
+      #skel img{
+          opacity: 0.4;
+          left: -10%;
+        }
+
+        #circle {
+          width: 100%;
+          opacity: 0.3;
+          top: 15%;
+          left: -10%;
+          position: absolute;
+      }
+
+      #final {
+        left: 10%;
+        height: 40%;
+        opacity: 0.3;
+      }
+    
+
+       .rightalign {
+            padding-top: 5%;
+            padding-left: 15%;
+            padding-right: 14%;
+        }
+
+       #charp { 
+          width: 100%;
+          font-size: 12px;
+          text-align: justify;
+         }
+        #originsp p{
+          width: 100%;
+          text-align: justify;
+
+        }
+        #originhead {
+          width: 100%;
+              font-size: 18px;
+            }
+
+        h1::after {
+            bottom: 2px;
+            height: 10px;
+          }
+
+       #legendp { 
+          width: 100%;
+          text-align: justify;
+        }
+
+        #return img {
+             
+              width: 40px;
+      }
+  }
+
+       @media screen and (max-width: 1233px) and (min-width: 608px) {
+
+          h1 {
+            padding-top: 5%;
+            font-size:  50px;
+            padding-left: 40%;
+            padding-right: 7%;
+            }
+
+          #introsection {
+              background-size: 400px;
+              background-position: -5% 30%;
+              overflow:hidden;
+              }
+
+            #intro {
+              font-size: 18px;
+              padding-left: 40%;
+              padding-right: 10%;
+              text-align: left;
+              width: 100%;
+            }
+
+            #circle {
+
+              left: -10%;
+            }
+
+            #originhead {
+              font-size: 30px;
+            }
+
+            .heading {
+              font-size: 30px;
+            }
+
+
+            h1::after {
+              left: 40%;
+              right: 20%;
+              height: 15px;
+              }
+
+            #return img {
+             
+              width: 50px;
+      }
+        }
+
+@media screen and (max-width: 607px) and (min-width: 426px) {
+      h1{
+
+        font-size: 40px;
+      }
+
+      #introsection {
+          background-image: url(veglambfin.png);
+          background-size: 250px;
+          background-repeat: no-repeat;
+          background-position: -10% 20%;
+        }
+
+        #intro {
+          font-size: 15px;
+          padding-top: 20%;
+          padding-left: 10%;
+        }
+
+
+
+        p {
+          font-size: 15px;
+        }
+        
+        
+        #aboutp {
+          font-family: Open Sans;
+          font-size: 15px;
+          width: 100%;
+          margin: 0;
+          text-align: justify;
+        }
+
+     #originhead {
+        font-size: 25px;
+              }
+
+      .heading {
+          font-size: 25px;
+        }
+        
+
+      #skel img{
+          opacity: 0.4;
+          left: -10%;
+        }
+
+        #circle {
+          width: 100%;
+          opacity: 0.3;
+          top: 15%;
+          left: -10%;
+          position: absolute;
+      }
+
+      #final {
+        left: 10%;
+        height: 40%;
+        opacity: 0.3;
+      }
+    
+
+       .rightalign {
+            padding-top: 5%;
+            padding-left: 15%;
+            padding-right: 14%;
+        }
+
+       #charp { 
+          width: 100%;
+          font-size: 15px;
+          text-align: justify;
+         }
+        #originsp p{
+          width: 100%;
+          text-align: justify;
+
+        }
+        #originhead {
+          width: 100%;
+              font-size: 20px;
+            }
+
+        h1::after {
+            bottom: 2px;
+            height: 10px;
+          }
+
+       #legendp { 
+          width: 100%;
+          text-align: justify;
+        }
+
+        #return img {
+             
+              width: 40px;
+      }
+
+}
+
+
+
+@media screen and (max-width: 826px) and (min-width: 610px) {
+    #intro {
+      width: 100%;
+      padding-top: 5%;
+      padding-left:45%;
+    }
+
+      #introsection {
+          background-position: -20% 20%;
+        }
+
+      #originhead {
+        font-size: 27px;
+        width: 100%;
+      }
+
+      #circle {
+        opacity: 0.5;
+      }
+} 
+
+
+
+
+
+
+
